@@ -1,0 +1,9 @@
+extent.reporter.spark.start=true
+extent.reporter.spark.out=Acres99
+Screenshot.dir=C:\\Users\\SWAKARTH\\Documents\\Acers99SprintProject\\acres\\Screenshots
+basefolder.name=Swathy/Acres99
+baseFolder.datepattern -D-MM-YY HH-mm-ss
+extent.reproter.spark.vieworder=dashboard,test,exception,author,device,log
+systeminfo.user=Swathy
+systeminfo.build=windows
+systeminfo.AppName=Eclipse

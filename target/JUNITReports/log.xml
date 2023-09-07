@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="82.504" tests="6" skipped="0" failures="1" errors="0">
+<testcase classname="validate and check all the functionality in 99acres website" name="Navigate to the UpComimg Project" time="28.357">
+<system-out><![CDATA[
+Given the user opens the web page...........................................passed
+When the user clicks on the Up Project link.................................passed
+And the user scrolls down to the Floor Plan section.........................passed
+Then check all the Functionality of FloorPlan Section.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate and check all the functionality in 99acres website" name="Navigate to  Seller and Facilities  Section" time="5.323">
+<system-out><![CDATA[
+When the user scrolls down to the Seller Section............................passed
+And check all the Functionality of Seller Section...........................passed
+And the user scrolls down to the Facilities Section.........................passed
+Then check all the Functionality of Facilities Section......................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate and check all the functionality in 99acres website" name="Navigate to BrochureAndPriceList and ExploreLocality  Section" time="27.248">
+<system-out><![CDATA[
+When the user scrolls down to the BrochureAndPriceList Section..............passed
+And will check all the functionality of BrochureAndPriceList Section........passed
+Then the user scrolls down to the ExploreLocality Section...................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate and check all the functionality in 99acres website" name="Navigate to  Builder and FAQS Section" time="7.158">
+<system-out><![CDATA[
+When the user scrolls down to the Builder  Section..........................passed
+And check all the functionality of Builder Section..........................passed
+And the user scrolls down to the FAQS Section...............................passed
+Then check all the functionality of FAQS Section............................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate and check all the functionality in 99acres website" name="Navigate to Brochure form Section - Example #1.1" time="8.01">
+<system-out><![CDATA[
+When the user scrolls down to the  Brochure Section.........................passed
+And user click the Investment button........................................passed
+And user click the yes button...............................................passed
+And user click the Month3...................................................passed
+And user click the Site.....................................................passed
+And user click the Iagree...................................................passed
+And the user needs to enter the name <"Name">...............................passed
+And user click the IN91.....................................................passed
+And the user needs to enter the PhoneNumber<"PhoneNumber">..................passed
+And the user needs to enter the EmailId<"EmailId">..........................passed
+And user clicks the download................................................passed
+Then user clicks the closeTab...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate and check all the functionality in 99acres website" name="Negative Scenario for BrochureForm - Example #1.1" time="6.115">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;side_widget_wrapper&quot;]/div/div/div[2]/a&quot;}
+  (Session info: chrome=116.0.5845.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [488015b362d5297c3e5745c524ca0740, findElement {using=xpath, value=//*[@id=&quot;side_widget_wrapper&quot;]/div/div/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.142, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50464/devtoo..., se:cdpVersion: 116.0.5845.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 488015b362d5297c3e5745c524ca0740">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="side_widget_wrapper"]/div/div/div[2]/a"}
+  (Session info: chrome=116.0.5845.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [488015b362d5297c3e5745c524ca0740, findElement {using=xpath, value=//*[@id="side_widget_wrapper"]/div/div/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.142, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50464/devtoo..., se:cdpVersion: 116.0.5845.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 488015b362d5297c3e5745c524ca0740
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at Pages.UpPageFactory.feedBack_Ok(UpPageFactory.java:305)
+	at StepDefinition.UpStepdefinition.the_user_needs_to_clicks_on_the_ok_button(UpStepdefinition.java:284)
+	at ✽.the user needs to clicks on the Ok button(file:///C:/Users/SWAKARTH/Documents/Acers99SprintProject/acres/src/test/java/UpcomimgProject/UpcomimgProject.feature:61)
+]]>
+</failure>
+<system-out><![CDATA[
+When The user needs to click the Feedback button............................passed
+And The user needs to is enter the <"Email">................................passed
+And the user needs to enter the feedback <"Feedback_details">...............passed
+And the user needs to clicks on the Send button.............................passed
+Then the user needs to clicks on the Ok button..............................failed
+]]></system-out>
+</testcase>
+</testsuite>

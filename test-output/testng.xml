@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Acers99TestNGReport">
+    <classes>
+      <class name="Pages.UpPF">
+        <methods>
+        <include name="f"/>
+          <include name="UpcomimgProject"/>
+          <include name="floorPlan"/>
+          <include name="Seller"/>
+          <include name="Facilities"/>
+          <include name="BrochureAndPriceList"/>
+          <include name="Builder"/>
+          <include name="FAQS"/>
+          <include name="Brochure"/>
+          <include name="Investment"/>
+          <include name="Yes"/>
+          <include name="Month3"/>
+          <include name="Site"/>
+          <include name="Iagree"/>
+          <include name="Name"/>
+          <include name="In91"/>
+          <include name="phoneNumber"/>
+          <include name="EmailId"/>
+          <include name="download"/>
+          <include name="closetab"/>
+          
+          
+        </methods>
+      </class>
+     
+    </classes>
+  </test>
+</suite>
